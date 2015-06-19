@@ -1,6 +1,7 @@
 <?php
 
 
+<<<<<<< HEAD
 		$var = 15;
 		$B_digit = "";
 		$digit = "";
@@ -16,3 +17,14 @@
 		
 		echo "<br>{$digit}";
 		
+=======
+	$word = "";
+	for ($x = 1; $x <= 3; $x++) {
+    	$word .= "A";
+		} 		
+	
+	echo $word;
+
+
+
+>>>>>>> 202237ef7781dd77357308227eea668a1451f498

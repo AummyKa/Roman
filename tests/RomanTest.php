@@ -42,6 +42,7 @@ class RomanTest extends PHPUnit_Framework_TestCase {
 		$result = $this->roman->getResult(9);
 		$this->assertEquals('IX', $result);
 	}
+
 	public function test15()
 	{
 		$result = $this->roman->getResult(15);
@@ -57,5 +58,6 @@ class RomanTest extends PHPUnit_Framework_TestCase {
 		$result = $this->roman->getResult(37);
 		$this->assertEquals('XXXVII', $result);
 	}
-
 }
+
+	
